@@ -5,9 +5,9 @@
 
 Two csv files were used:
 
-1) First file included columns for mouse id, timepoint, tumor volume, and metastatic sites. 
+1) The first file included columns for mouse id, timepoint, tumor volume, and metastatic sites. 
 
-2) Second file included metadata information about the mice that participated in this study, such as mouse id, drug regimen, sex, age, and weight.
+2) The second file included metadata information about the mice that participated in this study, such as mouse id, drug regimen, sex, age, and weight.
 
 The two files were merged into a data frame using mouse id. The combined data frame along with the pandas and matplotlib libraries were used to create graphs and draw conclusions.
 
@@ -20,11 +20,11 @@ The summary statistics (in tabular format) consist of the mean, median, variance
 
 **Bar Plots**
 
-The bar plots show the number of data points for each treatment regimen. One plot is built using the pandas library and the other is built using the matplotlib library. Besides that difference, they are the exactly the same plot.
+The bar plots show the number of data points for each treatment regimen. One plot is built using the pandas library and the other is built using the matplotlib library. Besides that difference, they are exactly the same plot.
 
 **Pie Plots**
 
-The pie plots chart the distribution of female versus male mice in the study. One plot is built using the pandas library and the other is built using the matplotlib library. Besides that difference, they are the exactly the same plot.
+The pie plots chart the distribution of female versus male mice in the study. One plot is built using the pandas library and the other is built using the matplotlib library. Besides that difference, they are exactly the same plot.
 
 **Quartiles, Outliers, and Boxplots**
 
@@ -34,9 +34,9 @@ The box and whisker plot shows the final tumor volume for all four treatment reg
 
 **Line and Scatter Plots**
 
-A line plot was generated to show time point versus tumor volume for mouse s185. The mouse was treated with Capomulin.
+A line plot was generated to show the time point versus tumor volume for mouse s185. The mouse was treated with Capomulin.
 
-A scatter plot was created to show average mouse weight versus average tumor volume for the Capomulin treatment regimen.
+A scatter plot was created to show average mouse weight versus the average tumor volume for the Capomulin treatment regimen.
 
 Finally, the correlation coefficient and linear regression model between average mouse weight and average tumor volume for the Capomulin treatment were calculated. The linear regression model is plotted on top of the scatter plot.
 
